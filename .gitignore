@@ -13,6 +13,9 @@
 /.next/
 /out/
 
+.env
+.react-email
+
 # production
 /build
 
