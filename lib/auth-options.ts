@@ -55,6 +55,7 @@ export const authOptions: AuthOptions = {
     }) {
       if (session.user) {
         session.user.email = token.email;
+        //@ts-ignore
         session.user.id = token.sub;
       }
 
